@@ -1,0 +1,13 @@
+-para criar tabela de usuários
+yarn sequelize migration:create --name=create-users
+
+-para rodar a migração depois de criada
+yarn sequelize db:migrate
+
+-desfazer última migration
+yarn sequelize db:migrate:undo
+
+-desfazer todas as migrations
+yarn sequelize db:migrate:undo:all
+
+
